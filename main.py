@@ -35,7 +35,7 @@ def main():
         model.load_weights(config.MODEL_PATH)
     else:
         print("Training the model...")
-        history = train_model(x_train, y_train, x_test, y_test)
+        model, history = train_model(x_train, y_train, x_test, y_test)
         
         # Save the model after training
         model.save_weights(config.MODEL_PATH)
