@@ -1,0 +1,10 @@
+#requirements.txt
+pandas
+numpy
+tensorflow
+keras
+matplotlib
+seaborn
+scikit-learn
+tqdm
+Pillow
